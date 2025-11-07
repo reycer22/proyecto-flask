@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Cautivo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h2>Bienvenido al Portal</h2>
+
+    <h2>Mejores artistas de una era</h2>
+
+    <p>Haz clic en un anuncio para continuar:</p>
+
+    {% for anuncio in anuncios %}
+    <div class="anuncio">
+        <h3>{{ anuncio.titulo }}</h3>
+        <a href="{{ url_for('click', id=anuncio.id) }}">
+            {% if anuncio.id == 1 %}
+                <img src="{{ url_for('static', filename='ads/anuncio1.jpg') }}" width="200">
+            {% elif anuncio.id == 2 %}
+                <img src="{{ url_for('static', filename='ads/anuncio2.jpg') }}" width="200">
+            {% endif %}
+        </a>
+    </div>
+{% endfor %}
+
+</body>
+</html>
