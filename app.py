@@ -36,6 +36,7 @@ def click(id):
             anuncio.registrar_click()
     return redirect(url_for('acceso'))
 
+
 @app.route('/acceso')
 def acceso():
     return render_template('acceso.html')
