@@ -1,0 +1,154 @@
+/* ============================================
+   GLOBAL — Tema Verde Naturaleza Moderno
+============================================ */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(160deg, #0A3D1C, #072e15, #021a0b);
+  color: #e9f7ec;
+  margin: 0;
+}
+
+/* Scroll verde */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #32d37b;
+  border-radius: 10px;
+}
+
+/* ============================================
+   LOGIN — Caja inspirada en naturaleza premium
+============================================ */
+.login-body {
+  background: linear-gradient(135deg, #0B5324, #0A3D1C, #063318);
+}
+
+.login-card {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  max-width: 380px;
+  color: #e9f7ec;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+}
+
+/* Inputs verde */
+.login-card input {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #1c6133;
+  color: white;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.login-card input:focus {
+  border-color: #32d37b;
+  box-shadow: 0 0 6px rgba(50, 211, 123, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Botón verde */
+.login-card button {
+  background: #32d37b !important;
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s;
+  color: #04210f;
+  font-weight: 600;
+}
+
+.login-card button:hover {
+  background: #4df28f !important;
+}
+
+/* ============================================
+   PORTAL — Tarjetas verdes naturales
+============================================ */
+.portal-body {
+  background: linear-gradient(180deg, #063318, #0A3D1C, #0B5324);
+  color: #e9f7ec;
+  min-height: 100vh;
+}
+
+.ad-card {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+  overflow: hidden;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(5px);
+}
+
+.ad-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+  border-color: #32d37b;
+}
+
+/* Imagen del anuncio */
+.ad-card img {
+  border-bottom: 1px solid #114a27;
+}
+
+/* Título verde */
+.ad-card .card-title {
+  color: #d9ffe6;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Botón verde */
+.ad-card .btn {
+  border-color: #32d37b;
+  color: #32d37b;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.ad-card .btn:hover {
+  background-color: #32d37b;
+  color: #04210f;
+}
+
+/* Texto clics */
+.ad-card p {
+  color: #a5d6b7;
+  font-size: 0.85rem;
+}
+
+/* ============================================
+   ACCESO — Página simple verde
+============================================ */
+.acceso-body {
+  background: linear-gradient(160deg, #021a0b, #063318);
+  color: #32d37b;
+  text-align: center;
+}
+
+.acceso-body h1 {
+  font-weight: 700;
+}
+
+.acceso-body a.btn {
+  background: #32d37b;
+  border: none;
+  color: #04210f;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.acceso-body a.btn:hover {
+  background: #4df28f;
+}
+
+.clics-text {
+  color: #9fffc7 !important; /* Verde menta suave */
+  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+}
+.clics-text strong {
+  color: #32d37b;
+  font-weight: 700;
+}
